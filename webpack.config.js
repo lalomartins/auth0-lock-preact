@@ -8,7 +8,12 @@ module.exports = {
     filename: 'lock.js'
   },
   resolve: {
-    extensions: ['.webpack.js', '.web.js', '.js', '.jsx', '.styl']
+    extensions: ['.webpack.js', '.web.js', '.js', '.jsx', '.styl'],
+    "alias": {
+      "react": "preact-compat",
+      "react-dom": "preact-compat",
+      'react-addons-css-transition-group': 'preact-css-transition-group',
+    }
   },
   progress: true,
   watch: true,
