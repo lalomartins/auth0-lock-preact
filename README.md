@@ -1,3 +1,11 @@
+# Preact Fork
+
+This fork makes no changes whatsoever to Lock, except changing dependencies so it works with preact-compat.
+
+It's tested on a web app and it works without any problems that I could notice, but of course no guarantees.
+
+# And now to the upstream Readme file
+
 [![NPM version][npm-image]][npm-url]
 [![Build status][circleci-image]][circleci-url]
 [![Dependency Status][david-image]][david-url]
